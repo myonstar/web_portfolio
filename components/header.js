@@ -12,7 +12,7 @@ export default function Header() {
                             <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
                         </svg>
                         {/* 헤더 이름 설정 */}
-                        <span className="ml-3 text-xl">김경빈</span>
+                        <span className="ml-3 text-xl">미완성에서 완성을 향해 성장할 개발자입니다.</span>
                     </div>
                     </Link>
                     <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
@@ -22,11 +22,14 @@ export default function Header() {
                         <Link href="/projects">
                         <div className="mr-5 hover:text-gray-900">프로젝트</div>
                         </Link>
+                        <Link href="/about-rpa">
+                        <div className="mr-5 hover:text-gray-900">About RPA</div>
+                        </Link>
                         <Link href="https://www.naver.com">
                         <div className="mr-5 hover:text-gray-900">Contact me</div>
                         </Link>
                     </nav>
-                    {/* 다크모드 작업 예쩡 */}
+                    {/* 다크모드 작업 */}
                     <DarkModeToggle></DarkModeToggle>
                 </div>
             </header>

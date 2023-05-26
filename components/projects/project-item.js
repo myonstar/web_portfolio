@@ -30,7 +30,7 @@ export default function ProjectItem({ data }) {
                 src={imgSrc}
                 alt="cover image Not Found"
                 width="100%"
-                height="100%"
+                height="60%"
                 layout="responsive"
                 objectFit="cover"
                 quality={100}
