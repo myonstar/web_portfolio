@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>김경빈 임시제목</title>
+        <title>미완성에서 완성을 향해 성장할 개발자입니다.</title>
         <meta name="description" content="웹 포트폴리오" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />

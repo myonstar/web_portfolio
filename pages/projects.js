@@ -6,7 +6,6 @@ import { TOKEN, DATABASE_ID } from "@/config";
 import ProjectItem from "@/components/projects/project-item";
 
 export default function Projects({ projects }) {
-
     return (
         <Layout>
             <div className="flex flex-col items-center justify-center min-h-screen mb-10 px-6">
@@ -17,7 +16,7 @@ export default function Projects({ projects }) {
                     <link rel="icon" href="/favicon.ico" />
                 </Head>
                 <h1 className="text-4xl font-bold sm:text-6xl">
-                    김경빈의 프로젝트 개수 : 
+                    김경빈의 프로젝트 개수 :
                     <span className="pl-4 text-blue-500">{projects.results.length}</span>
                 </h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 py-10 m-6 gap-8">
