@@ -15,6 +15,7 @@ export default function projectInfo(props) {
     // } else {
     //     const ActiveProjectInfo = Project2
     // }
+    const ActiveProjectInfo = Project1
     console.log("Halo")
     // console.log(router)
     return (
