@@ -10,11 +10,11 @@ let i = 0;
 
 export default function projectInfo(props) {
     // const router = useRouter()
-    if(i=0) {
-        const ActiveProjectInfo = Project1
-    } else {
-        const ActiveProjectInfo = Project2
-    }
+    // if(i=0) {
+    //     const ActiveProjectInfo = Project1
+    // } else {
+    //     const ActiveProjectInfo = Project2
+    // }
     console.log("Halo")
     // console.log(router)
     return (
