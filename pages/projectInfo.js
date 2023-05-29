@@ -1,23 +1,30 @@
 // 프로젝트 상세정보를 보여줄 페이지
 import Layout from "@/components/layout";
 import Head from "next/head";
-import { useRouter } from 'next/router'
+// useRouter 사용을 위해 Import
+import { useRouter } from "next/router";
 // 프로젝트 갯수 만큼 import -> 차후 개선 필요
 import Project1 from "@/components/projectList/project1";
 import Project2 from "@/components/projectList/project2";
+import ProjectNotFound from "@/components/projectList/project-not-found";
 
-let i = 0;
 
-export default function projectInfo(props) {
-    // const router = useRouter()
-    // if(i=0) {
-    //     const ActiveProjectInfo = Project1
-    // } else {
-    //     const ActiveProjectInfo = Project2
-    // }
-    const ActiveProjectInfo = Project1
-    console.log("Halo")
-    // console.log(router)
+export default function projectInfo() {
+    // 프로젝트 페이저 선택 변수 초기화
+    let i = 0;
+    // Router에서 queryString 데이터 얻어오기
+    const router = useRouter()
+    i = Number(router.query.name);
+    // ActiveProjectInfo 변수에 조건문 결과에 따라 동적으로 표시할 컴포넌트 할당
+    let ActiveProjectInfo;
+    if (i === 1) {
+        ActiveProjectInfo = Project1
+    } else if (i === 2) {
+        ActiveProjectInfo = Project2
+    } else {
+        // 잘못된 접근일시 표시할 컴포넌트
+        ActiveProjectInfo = ProjectNotFound
+    }
     return (
         <>
             <Layout>
@@ -28,7 +35,7 @@ export default function projectInfo(props) {
                     <link rel="icon" href="/favicon.ico" />
                 </Head>
                 <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-                    <ActiveProjectInfo />
+                    <ActiveProjectInfo></ActiveProjectInfo>
                 </div>
             </Layout>
         </>

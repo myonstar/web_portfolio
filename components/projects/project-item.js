@@ -28,12 +28,13 @@ export default function ProjectItem({ data }) {
 
         return result;
     }
-    return (
+    return (     
         <div className="project-card">
             {/* <Link href={projectLink}> */}
+            {/* Link의 href에 Router.push처럼 쿼리스트링을 넘길 수 있는 것으로 보임 */}
             <Link href={{
                 pathname: '/projectInfo',
-                // query : { name : projectNumber}
+                query : { name : projectNumber}
             }}>
                 <Image
                     className="rounded-t-xl"

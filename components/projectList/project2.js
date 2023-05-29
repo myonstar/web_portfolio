@@ -10,24 +10,24 @@ export default function project2() {
                     <h1 className="text-3xl inline">프로젝트 명 : 풍산 RPA 구축 프로젝트 </h1>
                     <p className="text-xl text-slate-800 inline">( RPA 개발 )</p>
                     <br></br>
-                    <h2 className="text-3xl">프로젝트 목표 : 풍산홀딩스의 단순업무 자동화 시스템 구축</h2>
+                    <h2 className="text-3xl">프로젝트 목표 : 풍산홀딩스에서 단순업무 자동화 시스템 구축</h2>
                     <br></br>
                     {/* 주요 개발사항 */}
                     <div>
                         <p className="text-2xl text-slate-800 my-3">◎ 주요 개발사항</p>
-                        <p className="text-2xl text-slate-800 ml-6 my-1">- React 라이브러리의 프레임워크인 Next.js를 기반으로 개발</p>
-                        <p className="text-2xl text-slate-800 ml-6 my-1">- 미리 준비된 유틸리티 클래스를 사용하는 TailWindCSS로 웹 페이지 디자인</p>
-                        <p className="text-2xl text-slate-800 ml-6 my-1">- 노션으로 프로젝트를 정리하고 API 연결 후 상세사항을 볼 수 있도록 개발</p>
-                        <p className="text-2xl text-slate-800 ml-6 my-1">- Vercel로 Github를 연동하여 Commit하는 즉시 빌드 후 프론트 배포가 되도록 진행</p>
+                        <p className="text-2xl text-slate-800 ml-6 my-1">- ERP소프트웨어 'SAP'에 접근하여</p>
+                        <p className="text-2xl text-slate-800 ml-6 my-1">- 웹 사이트에 있는 목표 데이터를</p>
+                        <p className="text-2xl text-slate-800 ml-6 my-1">- </p>
                     </div>
-                    {/* 기술 스택 */}
+                    {/* 개발 환경 */}
                     <div>
-                        <p className="text-2xl text-slate-800 my-3">◎ 기술 스택</p>
+                        <p className="text-2xl text-slate-800 my-3">◎ 개발 환경</p>
+                        <p className="text-2xl text-slate-800 ml-6 my-1 inline">RPA솔루션</p>
+                    </div>
+                    {/* 프로젝트 설명 */}
+                    <div>
+                        <p className="text-2xl text-slate-800 my-3">◎ 프로젝트 설명</p>
                         <p className="text-2xl text-slate-800 ml-6 my-1 inline">- HTML</p>
-                        <p className="text-2xl text-slate-800 ml-6 my-1 inline">- React</p>
-                        <p className="text-2xl text-slate-800 ml-6 my-1 inline">- Next.js</p>
-                        <p className="text-2xl text-slate-800 ml-6 my-1 inline">- TailwindCSS</p>
-                        <p className="text-2xl text-slate-800 ml-6 my-1 inline">- Git</p>
                     </div>
                 </div>
 
