@@ -15,14 +15,14 @@ export default function project2() {
                     {/* 주요 개발사항 */}
                     <div>
                         <p className="text-2xl text-slate-800 my-3">◎ 주요 개발사항</p>
-                        <p className="text-2xl text-slate-800 ml-6 my-1">- ERP소프트웨어 'SAP'에 접근하여</p>
-                        <p className="text-2xl text-slate-800 ml-6 my-1">- 웹 사이트에 있는 목표 데이터를</p>
+                        <p className="text-2xl text-slate-800 ml-6 my-1">- RPA가 ERP소프트웨어 'SAP'에 접근하여 목표 데이터 가져오기</p>
+                        <p className="text-2xl text-slate-800 ml-6 my-1">- 웹 사이트에 있는 데이터를 RPA가 크롤링 하기</p>
                         <p className="text-2xl text-slate-800 ml-6 my-1">- </p>
                     </div>
                     {/* 개발 환경 */}
                     <div>
                         <p className="text-2xl text-slate-800 my-3">◎ 개발 환경</p>
-                        <p className="text-2xl text-slate-800 ml-6 my-1 inline">RPA솔루션</p>
+                        <p className="text-2xl text-slate-800 ml-6 my-1 inline">RPA솔루션 중 하나인 Automation Anywhere 사용</p>
                     </div>
                     {/* 프로젝트 설명 */}
                     <div>
