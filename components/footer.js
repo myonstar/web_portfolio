@@ -14,7 +14,7 @@ export default function Footer() {
                         {/* <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">© 2020 Tailblocks —
                             <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">@knyttneve</a>
                         </p> */}
-                        <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">★ Start at 2023.05 ~
+                        <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">★ Start at 2023.05 ~ (웹 사이트를 계속 개선 및 업데이트 할 예정입니다)
                         </p>
                         {/* <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
                             <a className="text-gray-500">

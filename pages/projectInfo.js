@@ -6,6 +6,7 @@ import { useRouter } from "next/router";
 // 프로젝트 갯수 만큼 import -> 차후 개선 필요
 import Project1 from "@/components/projectList/project1";
 import Project2 from "@/components/projectList/project2";
+import Project3 from "@/components/projectList/project3";
 import ProjectNotFound from "@/components/projectList/project-not-found";
 
 
@@ -18,9 +19,18 @@ export default function projectInfo() {
     // ActiveProjectInfo 변수에 조건문 결과에 따라 동적으로 표시할 컴포넌트 할당
     let ActiveProjectInfo;
     if (i === 1) {
+        // 지정된 프로젝트 : 웹 포트폴리오 제작기
         ActiveProjectInfo = Project1
     } else if (i === 2) {
+        // 지정된 프로젝트 : 풍산 RPA 구축 프로젝트
         ActiveProjectInfo = Project2
+    } else if (i === 3) {
+        // 지정된 프로젝트 : 이테크시스템 RPA 구축 플젝트
+        ActiveProjectInfo = Project3
+    } else if (i === 4) {
+        ActiveProjectInfo = ProjectNotFound
+    } else if (i === 5) {
+        ActiveProjectInfo = ProjectNotFound
     } else {
         // 잘못된 접근일시 표시할 컴포넌트
         ActiveProjectInfo = ProjectNotFound

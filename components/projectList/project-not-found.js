@@ -7,7 +7,7 @@ export default function projectNotFound() {
             <div className="border-solid border-2 border-indigo-600 p-5">
                 {/* 프로젝트 명 */}
                 <div>
-                    <h1 className="text-3xl inline">아직 상세 정보가 작성되지 않은 페이지입니다...</h1>
+                    <h1 className="text-3xl inline">아직 상세 정보가 작성되지 않은 프로젝트입니다...</h1>
                 </div>
             </div>
         </div>

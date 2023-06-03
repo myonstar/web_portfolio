@@ -10,7 +10,7 @@ export default function Hero() {
                 <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
                     안녕하세요, 저는 김경빈입니다.
                 </h1>
-                <p className="text-xl mb-8 leading-relaxed">저는 컴퓨터소프트웨어공학과를 전공했으며, 첫 회사로 RPA업무를 수행하였고 웹 개발자로써 성장하기 위해 이 웹 사이트를 만들게 되었습니다.</p>
+                <p className="text-xl mb-8 leading-relaxed">저는 컴퓨터소프트웨어공학과를 전공했으며, 첫 회사로 RPA업무를 수행하였고 웹 개발자로써 성장하기 위해 이 웹 포트폴리오를 만들게 되었습니다.</p>
                 
                 <h1 className="title-font sm:text-3xl text-2xl mb-4 font-medium text-gray-900">
                     제가 수행한 프로젝트들을 보시려면

@@ -1,4 +1,4 @@
-// 현재 프로젝트 2번 "풍산 RPA 구축 프로젝트" 페이지 구성
+// 현재 프로젝트 3번 "이테크시스템 RPA 구축 프로젝트" 페이지 구성
 import Image from "next/image";
 
 export default function project2() {
@@ -9,18 +9,18 @@ export default function project2() {
                 <div className="p-5 w-3/4">
                     {/* 프로젝트 명 */}
                     <div>
-                        <h1 className="text-3xl inline">프로젝트 명 : 풍산 RPA 구축 프로젝트 </h1>
+                        <h1 className="text-3xl inline">프로젝트 명 : 이테크시스템 RPA 구축 프로젝트 </h1>
                         <p className="text-xl text-slate-800 inline">( RPA 개발 )</p>
                         <br></br>
-                        <h2 className="text-3xl my-3">프로젝트 목표 : 풍산홀딩스에서 단순업무 자동화 시스템 구축</h2>
+                        <h2 className="text-3xl my-3">프로젝트 목표 : 재직하는 회사의 사내 단순업무 자동화 시스템 구축</h2>
                         <br></br>
                     </div>
                     {/* 주요 개발사항 */}
                     <div>
                         <p className="text-2xl text-slate-800 my-3">◎ RPA의 주요 기능 목표</p>
-                        <p className="text-2xl text-slate-800 ml-6 my-1">- 소프트웨어 봇이 ERP소프트웨어 'SAP'에 접근하여 목표 데이터 입출력</p>
-                        <p className="text-2xl text-slate-800 ml-6 my-1">- 특정 웹 사이트에 있는 데이터를 소프트웨어 봇이 크롤링 하기</p>
-                        <p className="text-2xl text-slate-800 ml-6 my-1">- 전자메일(Outlook)의 Excel,PDF 첨부파일을 받고 유효 데이터 정리</p>
+                        <p className="text-2xl text-slate-800 ml-6 my-1">- 인사팀이 수행하는 사내 임직원의 근태관리 자동화</p>
+                        <p className="text-2xl text-slate-800 ml-6 my-1">- 엑셀로 정리된 거래처 및 회사들의 신용 정보 매일 갱신</p>
+                        <p className="text-2xl text-slate-800 ml-6 my-1">- </p>
                     </div>
                     {/* 개발 환경 */}
                     <div>
@@ -30,14 +30,13 @@ export default function project2() {
                     {/* 프로젝트 설명 */}
                     <div>
                         <p className="text-2xl text-slate-800 my-3">◎ 프로젝트 상세</p>
-                        <p className="text-xl text-slate-800 ml-6 my-1 inline">▶ 고객사측은 사원들이 출근 후 전날의 데이터로 업무를 수행할 수 있도록 희망했습니다.
-                            개발된 자동화 봇들은 스케줄링을 통해 매일 야간에 스스로 ERP, 웹 사이트, 파일 등에 접근하여 필요한 데이터를 추출 및 정제하여 결과물을 생성 후
-                            임직원에게 메일로 전송합니다. 이후 임직원들은 출근하자마자 봇이 작업해놓은 결과물을 최종 확인 및 즉시 당일 업무에 활용할 수 있었고 업무 효율이 상승되었습니다.</p>
+                        <p className="text-xl text-slate-800 ml-6 my-1 inline">▶ 방치된 단순한 업무와 과도한 반복적인 업무로 업무 시간이 길어져 간헐적으로
+                         야근을 하는 직원들의 부담을 줄이는 것을 목표로 하였습니다.</p>
                     </div>
                 </div>
                 {/* 이미지 설명 전체 div 틀 */}
                 <div className="p-5 w-1/4">
-                    {/* 대표 기능 설명 */}
+                    {/* 스케줄링 설명 */}
                     <div>
                         <Image
                             src="/sap.webp"
@@ -49,7 +48,6 @@ export default function project2() {
                     <div>
                         <p className="text-base text-slate-800 my-3">개발된 자동화 봇의 대표적 기능은 스스로 SAP에 접속 후 재료선적/출하, 거래처 내역, 방산정보 등 민감한 데이터를 가공하여 엑셀에 정리 후 담당자에게 전송하는 기능입니다.</p>
                     </div>
-                    {/* 스케줄링 설명 */}
                     <div>
                         <Image
                             src="/bot-schedule.webp"
