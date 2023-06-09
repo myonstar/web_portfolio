@@ -25,7 +25,7 @@ export default function project2() {
                     {/* 개발 환경 */}
                     <div>
                         <p className="text-2xl text-slate-800 my-3">◎ 개발 환경</p>
-                        <p className="text-xl text-slate-800 ml-6 my-1 inline">RPA솔루션 중 하나인 Automation Anywhere 사용</p>
+                        <p className="text-xl text-slate-800 ml-6 my-1 inline">- RPA솔루션 중 하나인 Automation Anywhere 사용</p>
                     </div>
                     {/* 프로젝트 설명 */}
                     <div>
