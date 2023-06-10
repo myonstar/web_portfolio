@@ -35,8 +35,9 @@ export default function project1() {
                     {/* 프로젝트 설명 */}
                     <div>
                         <p className="text-2xl text-slate-800 my-3">◎ 프로젝트 상세</p>
-                        <p className="text-xl text-slate-800 ml-6 my-1 inline">▶ 참고 영상을 참조하며 웹 포트폴리오를 만들면서 React로 컴포넌트 단위로 개발 후 합치는 
-                        만들어놓은 것에서 멈추지 않고 스스로 제가 수행했던 프로젝트들의 상세정보들을 추가, RPA대한 설명을 넣는 등 저만의 포트폴리오로 발전시켰습니다.</p>
+                        <p className="text-xl text-slate-800 ml-6 my-1 inline">▶ 참고 영상을 참조하며 웹 포트폴리오를 만들면서 캡슐화된 컴포넌트 단위로 개발 후
+                        합치고 재사용 할 수 있는 React의 강점을 깨달았습니다. 만들어놓은 것에서 멈추지 않고 스스로 제가 수행했던 프로젝트들의 상세정보들을 추가, RPA대한 설명을 넣는 등
+                        저만의 포트폴리오로 지속적으로 업데이트를 하고 있습니다.</p>
                     </div>
                     {/* 부록 : 깃 허브 링크 */}
                     <div>
@@ -54,30 +55,29 @@ export default function project1() {
                     {/* Next.js를 사용한 이유 설명*/}
                     <div>
                         <Image
-                            src="/joyet.webp"
+                            src="/joy3et.webp"
                             alt="Image Not Found"
                             width={640}
                             height={480}
                             quality={100} />
                     </div>
                     <div>
-                        <p className="text-base text-slate-800 my-3">HTML태그들과 CSS를 사용해 직접 웹 디자인을 수행하였으며,
-                            웹 페이지가 모바일에서도 어색하지 않게 표시되도록 반응형 웹 페이지로 만들기 위해 추가로 BootStrap 프레임워크를 사용했습니다.
+                        <p className="text-base text-slate-800 my-3">React 라이브러리의 프레임워크인 Next.js를 사용함으로써 SSR(서버 사이드 렌더링)의 중요성,
+                        생소했던 React의 대략적인 사용법도 배울 수 있었습니다.(업데이트 예정)
                         </p>
                     </div>
                     {/* Vercel 설명 */}
                     <div>
                         <Image
-                            src="/protocol.webp"
+                            src="/vercel-logo.webp"
                             alt="Image Not Found"
                             width={450}
                             height={280}
                             quality={100} />
                     </div>
                     <div>
-                        <p className="text-base text-slate-800 my-3">팀원이 구축한 DB, 서버와 통신하기 위해 사전에 프로토콜 인자들과 각 인자들의 기능들을 약속했습니다.
-                            통신 방식은 JSP 파일에 작성된 Java 코드로 바이트 배열을 생ㅇ성 후 프로토콜 인자와 관련 데이터를 붙인 후 서버쪽으로 전송하면 서버쪽에서 결과를 처리합니다.
-                            반대로 서버쪽에서 바이트 배열을 전송해주면 문자열 배열로 변환 후 웹 페이지에 표시할 데이터들을 추출 후 표시하거나 웹 페이지를 제어하는 방식으로 서버와 통신하였습니다.
+                        <p className="text-base text-slate-800 my-3">Next.js를 개발한 Vercel이 제공하는 서비스를 사용하면 연동된 GitHub에 Commit시 Vercel이 감지하여 
+                        빌드를 수행 후 도메인을 제공, 제가 만든 웹 포트폴리오가 어디서든 열람 가능하게 할 수 있었습니다.
                         </p>
                     </div>
                 </div>
