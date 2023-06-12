@@ -22,9 +22,9 @@ export default function Header() {
                         <Link href="/projects">
                         <div className="mr-5 hover:text-gray-900">프로젝트</div>
                         </Link>
-                        <Link href="/about-rpa">
+                        {/* <Link href="/about-rpa">
                         <div className="mr-5 hover:text-gray-900">About RPA</div>
-                        </Link>
+                        </Link> */}
                         {/* <Link href="https://www.naver.com">
                         <div className="mr-5 hover:text-gray-900">Contact me</div>
                         </Link> */}
