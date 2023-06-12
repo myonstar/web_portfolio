@@ -1,7 +1,7 @@
-// 현재 프로젝트 2번 "풍산 RPA 구축 프로젝트" 페이지 구성
+// 현재 프로젝트 2번 "졸업작품 Joyet" 페이지 구성
 import Image from "next/image";
 
-export default function project2() {
+export default function project5() {
     return (
         <div>
             <div className="flex">
@@ -9,57 +9,65 @@ export default function project2() {
                 <div className="p-5 w-3/4">
                     {/* 프로젝트 명 */}
                     <div>
-                        <h1 className="text-3xl inline">프로젝트 명 : 풍산 RPA 구축 프로젝트 </h1>
-                        <p className="text-xl text-slate-800 inline">( RPA 개발 )</p>
+                        <h1 className="text-3xl inline">프로젝트 명 : 가상 헬스 트레이너 Joyet </h1>
+                        <p className="text-xl text-slate-800 inline">( 프론트엔드 개발 )</p>
                         <br></br>
-                        <h2 className="text-3xl my-3">프로젝트 목표 : 풍산홀딩스에서 단순업무 자동화 시스템 구축</h2>
+                        <h2 className="text-3xl my-3">프로젝트 목표 : Joyet 프로젝트의 사용자 웹 사이트 개발</h2>
                         <br></br>
                     </div>
                     {/* 주요 개발사항 */}
                     <div>
-                        <p className="text-2xl text-slate-800 my-3">◎ RPA의 주요 기능 목표</p>
-                        <p className="text-2xl text-slate-800 ml-6 my-1">- 소프트웨어 봇이 ERP소프트웨어 'SAP'에 접근하여 목표 데이터 입출력</p>
-                        <p className="text-2xl text-slate-800 ml-6 my-1">- 특정 웹 사이트에 있는 데이터를 소프트웨어 봇이 크롤링 하기</p>
-                        <p className="text-2xl text-slate-800 ml-6 my-1">- 전자메일(Outlook)의 Excel,PDF 첨부파일을 받고 유효 데이터 정리</p>
+                        <p className="text-2xl text-slate-800 my-3">◎ 주요 개발사항</p>
+                        <p className="text-2xl text-slate-800 ml-6 my-1">- HTML과 CSS를 사용하여 마크업 개발 수행</p>
+                        <p className="text-2xl text-slate-800 ml-6 my-1">- HTML에 Java코드를 넣고 사용하기 위해 JSP를 활용</p>
+                        <p className="text-2xl text-slate-800 ml-6 my-1">- 반응형 웹 디자인을 목적으로 BootStrap 프레임워크를 사용</p>
                     </div>
-                    {/* 개발 환경 */}
+                    {/* 기술 스택 */}
                     <div>
-                        <p className="text-2xl text-slate-800 my-3">◎ 개발 환경</p>
-                        <p className="text-xl text-slate-800 ml-6 my-1 inline">- RPA솔루션 중 하나인 Automation Anywhere 사용</p>
+                        <p className="text-2xl text-slate-800 mt-3 my-2">◎ 기술 스택</p>
+                        <p className="text-2xl text-slate-800 ml-6 my-1 inline">- HTML</p>
+                        <p className="text-2xl text-slate-800 ml-6 my-1 inline">- CSS(+ BootStrap 프레임워크)</p>
+                        <p className="text-2xl text-slate-800 ml-6 my-1 inline">- JavaScript</p>
+                        <p className="text-2xl text-slate-800 ml-6 my-1 inline">- JSP(Java)</p>
                     </div>
                     {/* 프로젝트 설명 */}
                     <div>
                         <p className="text-2xl text-slate-800 my-3">◎ 프로젝트 상세</p>
-                        <p className="text-xl text-slate-800 ml-6 my-1 inline">▶ 고객사측은 사원들이 출근 후 전날의 데이터로 업무를 수행할 수 있도록 희망했습니다.
-                            개발된 자동화 봇들은 스케줄링을 통해 매일 야간에 스스로 ERP, 웹 사이트, 파일 등에 접근하여 필요한 데이터를 추출 및 정제하여 결과물을 생성 후
-                            임직원에게 메일로 전송합니다. 이후 임직원들은 출근하자마자 봇이 작업해놓은 결과물을 최종 확인 및 즉시 당일 업무에 활용할 수 있었고 업무 효율이 상승되었습니다.</p>
+                        <p className="text-xl text-slate-800 ml-6 my-1 inline">▶ 졸업작품의 테마는 '다이어트를 도와주는 가상 헬스 트레이너' 였으며 제 담당부분은 회원가입/관리 기능,
+                        회원들을 위한 다이어트 정보 취득, 식단 추천 및 운동추천, 목표 입력/확인 기능 등 주요 코칭 시스템이 담긴 웹 사이트 구축이었습니다. 웹 사이트는 JSP 파일들로 구성되었으며
+                        팀원들과 사전 정의한 프로토콜 인자를 활용한 Java 코드로 DB, 서버와 통신하여 웹 사이트가 작동되게 구현하였습니다.</p>
                     </div>
                 </div>
                 {/* 이미지 설명 전체 div 틀 */}
                 <div className="p-5 w-1/4">
-                    {/* 대표 기능 설명 */}
+                    {/* 웹 디자인 관련 설명 */}
                     <div>
                         <Image
-                            src="/sap.webp"
-                            alt="Image Not Found"
-                            width={450}
-                            height={280}
-                            quality={100} />
-                    </div>
-                    <div>
-                        <p className="text-base text-slate-800 my-3">개발된 자동화 봇의 대표적 기능은 스스로 SAP에 접속 후 재료선적/출하, 거래처 내역, 방산정보 등 민감한 데이터를 가공하여 엑셀에 정리 후 담당자에게 전송하는 기능입니다.</p>
-                    </div>
-                    {/* 스케줄링 설명 */}
-                    <div>
-                        <Image
-                            src="/bot-schedule.webp"
+                            src="/joyet.webp"
                             alt="Image Not Found"
                             width={640}
                             height={480}
                             quality={100} />
                     </div>
                     <div>
-                        <p className="text-base text-slate-800 my-3">봇 스케줄링을 통해 연중무휴 지정된 시간에 약속된 결과물을 제공하므로 안정적으로 업무 프로세스가 유지됩니다.</p>
+                        <p className="text-base text-slate-800 my-3">HTML태그들과 CSS를 사용해 직접 웹 디자인을 수행하였으며,
+                        웹 페이지가 모바일에서도 어색하지 않게 표시되도록 반응형 웹 페이지로 만들기 위해 추가로 BootStrap 프레임워크를 사용했습니다.
+                        </p>
+                    </div>
+                    {/* 프로토콜 인자 및 통신 설명 */}
+                    <div>
+                        <Image
+                            src="/protocol.webp"
+                            alt="Image Not Found"
+                            width={450}
+                            height={280}
+                            quality={100} />
+                    </div>
+                    <div>
+                        <p className="text-base text-slate-800 my-3">팀원이 구축한 DB, 서버와 통신하기 위해 사전에 프로토콜 인자들과 각 인자들의 기능들을 약속했습니다. 
+                        통신 방식은 JSP 파일에 작성된 Java 코드로 바이트 배열을 생성 후 프로토콜 인자와 관련 데이터를 붙인 후 서버쪽으로 전송하면 서버쪽에서 결과를 처리합니다.
+                        반대로 서버쪽에서 바이트 배열을 전송해주면 문자열 배열로 변환 후 웹 페이지에 표시할 데이터들을 추출 후 표시하거나 웹 페이지를 제어하는 방식으로 서버와 통신하였습니다.
+                        </p>
                     </div>
                 </div>
             </div>

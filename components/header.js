@@ -25,9 +25,9 @@ export default function Header() {
                         <Link href="/about-rpa">
                         <div className="mr-5 hover:text-gray-900">About RPA</div>
                         </Link>
-                        <Link href="https://www.naver.com">
+                        {/* <Link href="https://www.naver.com">
                         <div className="mr-5 hover:text-gray-900">Contact me</div>
-                        </Link>
+                        </Link> */}
                     </nav>
                     {/* 다크모드 작업 */}
                     <DarkModeToggle></DarkModeToggle>

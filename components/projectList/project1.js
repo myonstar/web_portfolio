@@ -55,14 +55,14 @@ export default function project1() {
                     {/* Next.js를 사용한 이유 설명*/}
                     <div>
                         <Image
-                            src="/joy3et.webp"
+                            src="/next-logo.webp"
                             alt="Image Not Found"
                             width={640}
                             height={480}
                             quality={100} />
                     </div>
                     <div>
-                        <p className="text-base text-slate-800 my-3">React 라이브러리의 프레임워크인 Next.js를 사용함으로써 SSR(서버 사이드 렌더링)의 중요성,
+                        <p className="text-base text-slate-800 my-3">React 라이브러리의 프레임워크인 Next.js를 사용함으로써 SSR(서버 사이드 렌더링)을 지원하는 Next.js의 장점을 깨달았으며 
                         생소했던 React의 대략적인 사용법도 배울 수 있었습니다.(업데이트 예정)
                         </p>
                     </div>
