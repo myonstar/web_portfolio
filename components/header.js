@@ -30,12 +30,9 @@ export default function Header() {
                         <Link href="/projects">
                             <div className="mr-5 hover:text-gray-900">프로젝트</div>
                         </Link>
-                        {/* <Link href="/about-rpa">
+                        <Link href="/about-rpa">
                         <div className="mr-5 hover:text-gray-900">About RPA</div>
-                        </Link> */}
-                        {/* <Link href="" onClick={() => setShowModal(true)}>
-                        <div className="mr-5 hover:text-gray-900">Contact me</div>
-                        </Link> */}
+                        </Link>
                         {/* 클릭 시 모달 창 */}
                         <button onClick={clickModal} size={60} className="mr-5 hover:text-gray-900 text-slate-500 dark:text-slate-400 dark:hover:text-gray-900">
                             About Me
