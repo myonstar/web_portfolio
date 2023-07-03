@@ -1,3 +1,4 @@
+// 프로필 모달창을 구성하는 파일
 import { useState } from "react";
 import Image from "next/image";
 

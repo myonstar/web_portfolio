@@ -1,7 +1,7 @@
 // 현재 프로젝트 2번 "졸업작품 Joyet" 페이지 구성
 import Image from "next/image";
 
-export default function project5() {
+export default function project2() {
     return (
         <div>
             <div>

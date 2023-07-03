@@ -4,7 +4,7 @@ import Layout from "@/components/layout";
 import Head from "next/head";
 import RPASwiper from "@/components/rpa-swiper";
 
-export default function aboutRPA() {
+export default function AboutRPA() {
     return (
         <Layout>
             <div>

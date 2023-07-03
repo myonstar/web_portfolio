@@ -7,7 +7,11 @@
 }
 
 .btn-project {
-    @apply inline-flex text-white dark:text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg
+    @apply inline-flex text-white dark:text-white bg-teal-500 border-0 py-2 px-6 focus:outline-none hover:bg-teal-600 rounded text-lg
+}
+
+.btn-nav {
+    @apply text-white dark:text-white bg-indigo-500 border-0 py-2 px-6 hover:bg-indigo-600 rounded text-lg w-full
 }
 
 .project-card {
@@ -20,11 +24,15 @@
     @apply flex fixed top-0 left-0 w-full h-full bg-gray-300 bg-opacity-50 justify-center items-center z-30
 }
 
-
 .modal {
     @apply flex bg-white py-6 px-12 dark:bg-slate-800
     /* w-1/2 max-w-screen-xl */
 }
+
+.nav-border {
+    @apply border-solid border-4 border-blue-500 rounded-xl
+}
+
 h1, h2, h3, h4, h5, h6 {
     @apply text-slate-900 dark:text-white
 }

@@ -1,6 +1,6 @@
 // 현재 프로젝트 상세정보가 구현되지 않은 페이지 구성
 
-export default function projectNotFound() {
+export default function ProjectNotFound() {
     return (
         <div>
             {/* 프로젝트 상세정보 전체 div 틀 */}

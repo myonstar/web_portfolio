@@ -15,7 +15,7 @@ export default function Projects({ projects }) {
                     <meta name="viewport" content="width=device-width, initial-scale=1" />
                     <link rel="icon" href="/favicon.ico" />
                 </Head>
-                <h1 className="text-4xl font-bold sm:text-6xl">
+                <h1 className="text-4xl mt-5 font-bold sm:text-6xl">
                     김경빈의 프로젝트 개수 :
                     <span className="pl-4 text-blue-500">{projects.results.length}</span>
                 </h1>

@@ -1,12 +1,12 @@
 // 현재 프로젝트 3번 "롯데정밀화학 RPA 구축 프로젝트" 페이지 구성
 import Image from "next/image";
 
-export default function project4() {
+export default function RPAInfo() {
     return (
         <div>
             <div>
                 {/* 프로젝트 상세정보 전체 div 틀 */}
-                <div className="p-5">
+                <div>
                     {/* 프로젝트 명 */}
                     <div>
                         <h1 className="text-3xl inline">프로젝트 명 : 롯데정밀화학 RPA 구축 프로젝트 </h1>
@@ -39,7 +39,7 @@ export default function project4() {
                     </div>
                 </div>
                 {/* 이미지 설명 전체 div 틀 */}
-                <div className="p-5 flex">
+                <div className="flex">
                     {/* OCR 설명 */}
                     <div className="m-3">
                         <Image

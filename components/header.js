@@ -20,25 +20,22 @@ export default function Header() {
                                 <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
                             </svg>
                             {/* 헤더 이름 설정 */}
-                            <span className="ml-3 text-xl">새로운 도전과 목표를 추구하는 개발자입니다.</span>
+                            <span className="ml-3 text-2xl">새로운 도전과 목표를 추구하는 개발자입니다.</span>
                         </div>
                     </Link>
                     <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400 flex flex-wrap items-center text-base justify-center">
                         <Link href="/">
-                            <div className="mr-5 hover:text-gray-900">메인 홈</div>
+                            <div className="mr-5 text-2xl hover:text-gray-900">메인 홈</div>
                         </Link>
                         <Link href="/projects">
-                            <div className="mr-5 hover:text-gray-900">프로젝트</div>
-                        </Link>
-                        <Link href="/about-rpa">
-                        <div className="mr-5 hover:text-gray-900">About RPA</div>
+                            <div className="mr-5 text-2xl hover:text-gray-900">프로젝트</div>
                         </Link>
                         {/* 클릭 시 모달 창 */}
-                        <button onClick={clickModal} size={60} className="mr-5 hover:text-gray-900 text-slate-500 dark:text-slate-400 dark:hover:text-gray-900">
+                        <button onClick={clickModal} size={60} className="mr-5 text-2xl hover:text-gray-900 text-slate-500 dark:text-slate-400 dark:hover:text-gray-900">
                             About Me
                         </button>
                         {/* state가 true면 만들어놓은 모달 컴포넌트를 화면에 띄운다. */}
-                        {/* FeedSearchModal로 state함수를 props로 전달한다. => 모달 내에서 모달을 나갈 수 있어야 하기 때문 */}
+                        {/* FeedSearchModal로 state함수를 props로 전달한다. => 모달 내에서 모달창을 닫을 수 있어야 하기 때문 */}
                         {showModal && <AboutMe clickModal={clickModal} />}
                     </nav>
                     {/* 다크모드 작업 */}

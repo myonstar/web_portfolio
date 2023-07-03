@@ -1,3 +1,4 @@
+// 잘못된 페이지 접근(404 에러)를 구성하는 페이지
 export default function PageNotFound() {
     return (
         <>

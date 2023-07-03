@@ -6,11 +6,11 @@ import { useRouter } from "next/router";
 // 프로젝트 갯수 만큼 import -> 차후 개선 필요
 import Project1 from "@/components/projectList/project1";
 import Project2 from "@/components/projectList/project2";
-import Project3 from "@/components/projectList/project3";
+import Project3 from "@/components/projectList/project3-RPA/project3";
 import ProjectNotFound from "@/components/projectList/project-not-found";
 
 
-export default function projectInfo() {
+export default function ProjectInfo() {
     // 프로젝트 페이저 선택 변수 초기화
     let i = 0;
     // Router에서 queryString 데이터 얻어오기
