@@ -41,22 +41,6 @@ export default function RPASwiper() {
                         height={720}
                         quality={100} />
                 </div></SwiperSlide>
-                <SwiperSlide><div className="flex justify-center">
-                    <Image
-                        src="/RPA_03.webp"
-                        alt="Image Not Found"
-                        width={1280}
-                        height={720}
-                        quality={100} />
-                </div></SwiperSlide>
-                <SwiperSlide><div className="flex justify-center">
-                    <Image
-                        src="/RPA_04.webp"
-                        alt="Image Not Found"
-                        width={1280}
-                        height={720}
-                        quality={100} />
-                </div></SwiperSlide>
             </Swiper>
         </div>
     );

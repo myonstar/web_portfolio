@@ -18,7 +18,8 @@ export default function AboutMe(props) {
                         <div className="w-1/4 min-w-fit mr-3">
                             <p className="flex text-3xl mx-3 my-3 justify-center">프로필</p>
                             <Image className="m-auto"
-                                src="/kkb.webp"
+                                src="/kkb_profile.webp"
+                                key="kkb_profile"
                                 alt="Image Not Found"
                                 width={200}
                                 height={100}
