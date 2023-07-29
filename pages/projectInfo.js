@@ -4,8 +4,8 @@ import Head from "next/head";
 // useRouter 사용을 위해 Import
 import { useRouter } from "next/router";
 // 프로젝트 갯수 만큼 import -> 차후 개선 필요
-import Project1 from "@/components/projectList/project1";
-import Project2 from "@/components/projectList/project2";
+import Project1 from "@/components/projectList/project1-portfolio/project1";
+import Project2 from "@/components/projectList/project2-joyet/project2";
 import Project3 from "@/components/projectList/project3-RPA/project3";
 import ProjectNotFound from "@/components/projectList/project-not-found";
 
