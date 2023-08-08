@@ -38,7 +38,7 @@ export default function ProjectItem({ data }) {
             }}>
                 <Image
                     className="rounded-t-xl"
-                    src={imgSrc}
+                    src={`/project_logo_${projectNumber}.webp`}
                     alt="cover image Not Found"
                     width="100%"
                     height="60%"
